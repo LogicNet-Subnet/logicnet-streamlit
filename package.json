@@ -1,0 +1,21 @@
+{
+  "name": "logicnet-streamlit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "pip install -r requirements.txt",
+    "start": "streamlit run streamlit_app.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LogicNet-Subnet/logicnet-streamlit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LogicNet-Subnet/logicnet-streamlit/issues"
+  },
+  "homepage": "https://github.com/LogicNet-Subnet/logicnet-streamlit#readme"
+}
