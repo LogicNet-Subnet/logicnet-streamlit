@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install": "pip install -r requirements.txt",
-    "start": "source env/bin/activate && streamlit run streamlit_app.py",
+    "start": "source env/bin/activate && streamlit run streamlit_app.py --server.runOnSave=true",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
