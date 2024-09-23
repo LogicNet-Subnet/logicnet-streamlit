@@ -34,8 +34,8 @@ jobs:
           
           # Activate virtual environment and install dependencies
           source env/bin/activate
-          npm install
+          npm run install
           
           # Start the application
-          npm start
+          npm run start
         EOF
