@@ -25,4 +25,5 @@ jobs:
           cd /home/ubuntu/logicnet-streamlit
           git pull origin main
           npm run install
+          npm run start
         EOF
