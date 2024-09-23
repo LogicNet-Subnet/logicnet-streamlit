@@ -23,7 +23,19 @@ jobs:
       run: |
         ssh -o StrictHostKeyChecking=no root@45.77.168.135 << 'EOF'
           cd /home/ubuntu/logicnet-streamlit
+          
+          # Pull the latest code from the repository
           git pull origin main
+          
+          # Check if the 'env' folder exists, if not create a virtual environment
+          if [ ! -d "env" ]; then
+            python3 -m venv env
+          fi
+          
+          # Activate virtual environment and install dependencies
+          source env/bin/activate
           npm run install
+          
+          # Start the application
           npm run start
         EOF
