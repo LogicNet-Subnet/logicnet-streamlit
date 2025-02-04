@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime
 
-validator_uids = [133, 2, 73, 233, 0, 8, 147, 229, 123, 250, 118, 39, 119, 100, 218]
+validator_uids = [233, 133, 147, 118, 100, 39, 15, 8, 0, 73]
 
 st.set_page_config(page_title="LogicNet Studio", layout="wide")
 
